@@ -1,8 +1,8 @@
-resource "aws_s3_bucket" "bucket1" {
-  bucket        = "bucket1"
+resource "aws_s3_bucket" "bucket" {
+  bucket        = "bucket"
   acl           = var.acl
   force_destroy = true
   tags  {
-    Name         = "bucket1"
+    Name         = "bucket"
   }
 }    
