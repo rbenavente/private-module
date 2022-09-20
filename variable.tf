@@ -1,4 +1,4 @@
 variable "acl" {
-  type    = "string"
+  type    = string
   defautl = "public-read"
 }
